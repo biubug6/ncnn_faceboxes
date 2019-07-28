@@ -6,7 +6,8 @@ FaceBoxes is a cpu real-time face detector with high accuracy
 # ncnn
 ncnn is a high-performance neural network inference computing framework optimized for mobile platforms. 
 
-# Train model in https://github.com/zisianw/FaceBoxes.PyTorch
+# Train model in 
+[how to train](https://github.com/zisianw/FaceBoxes.PyTorch)
 
 # Model convert form Pytorch to Onnx to Ncnn,  and repair some bug in onnx2ncnn
 1. Onnx2ncnn in ncnn don't support the operation which changes Split to Slice. I  modified the onnx2ncnn on the basis of ncnn in order to support Split to Slice   operator.
@@ -21,7 +22,9 @@ ncnn is a high-performance neural network inference computing framework optimize
 3. cd ./build/faceboxes/ && ./facebox, test.jpg save in ./model/test.jpg
 
 faceboxes refers to the following projects:
-*https://github.com/Tencent/ncnn
-*https://github.com/zisianw/FaceBoxes.PyTorch
+*[ncnn](https://github.com/Tencent/ncnn)
+*[facebox](https://github.com/zisianw/FaceBoxes.PyTorch)
+
+
 ![](https://raw.githubusercontent.com/biubug6/ncnn_faceboxes/master/model/test.jpg)
 
