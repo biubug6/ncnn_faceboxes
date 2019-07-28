@@ -13,9 +13,11 @@ ncnn is a high-performance neural network inference computing framework optimize
 
 repair some bug in onnx2ncnn
 
-1.Onnx2ncnn in ncnn don't support the operation which changes Split to Slice. Modifying the onnx2ncnn on the basis of ncnn in order to support Split to Slice   operator.
+1.onnx2ncnn in ncnn don't support the operation which changes Split to Slice. Modifying the onnx2ncnn on the basis of ncnn in order to support Split to Slice   operator.
 
- 2.Onnx2ncnn in ncnn would parse to the wrong parameter in reshape operator if reshape operator is 4 dims(eg:torch.reshape(b, c, h, w) to ncnn reshape). 
+ 2.onnx2ncnn in ncnn would parse to the wrong parameter in reshape operator if reshape operator is 4 dims(eg:torch.reshape(b, c, h, w) to ncnn reshape). 
+ 
+ 3.winograd3x3 conv style has bug, I don't use winograd3x3.
 
 # Compile
 
