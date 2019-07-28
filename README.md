@@ -1,6 +1,4 @@
-![](https://raw.githubusercontent.com/biubug6/ncnn_faceboxes/master/model/test.jpg)
 # ncnn
-
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://raw.githubusercontent.com/Tencent/ncnn/master/LICENSE.txt) 
 [![Build Status](https://travis-ci.org/Tencent/ncnn.svg?branch=master)](https://travis-ci.org/Tencent/ncnn)
 [![Coverage Status](https://coveralls.io/repos/github/Tencent/ncnn/badge.svg?branch=master)](https://coveralls.io/github/Tencent/ncnn?branch=master)
@@ -41,5 +39,5 @@ ncnn 是一个为手机端极致优化的高性能神经网络前向计算框架
 * [Build for iOS on Linux with cctools-port](https://github.com/Tencent/ncnn/wiki/how-to-build#build-for-ios-on-linux-with-cctools-port)
 * [Build for Hisilicon platform with cross-compiling](https://github.com/Tencent/ncnn/wiki/how-to-build#build-for-hisilicon-platform-with-cross-compiling)
 
-
+![](https://raw.githubusercontent.com/biubug6/ncnn_faceboxes/master/model/test.jpg)
 
