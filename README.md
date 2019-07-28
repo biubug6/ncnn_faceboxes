@@ -17,13 +17,13 @@ ncnn is a high-performance neural network inference computing framework optimize
 ### Compile
 1. set opencv path in ./faceboxes/CMakeLists.txt file
 
-2.[how to build ncnn library](https://github.com/Tencent/ncnn/wiki/how-to-build)
+    2.[how to build ncnn library](https://github.com/Tencent/ncnn/wiki/how-to-build)
 
-3. cd ./build/faceboxes/ && ./facebox, test.jpg save in ./model/test.jpg
+3. cd ./build/faceboxes/ && ./facebox, test.jpg saved in ./model/test.jpg
 
 faceboxes refers to the following projects:
-*[ncnn](https://github.com/Tencent/ncnn)
-*[facebox](https://github.com/zisianw/FaceBoxes.PyTorch)
+1.[ncnn](https://github.com/Tencent/ncnn)
+2.[facebox](https://github.com/zisianw/FaceBoxes.PyTorch)
 
 
 ![](https://raw.githubusercontent.com/biubug6/ncnn_faceboxes/master/model/test.jpg)
