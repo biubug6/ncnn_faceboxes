@@ -9,13 +9,13 @@ ncnn is a high-performance neural network inference computing framework optimize
 # Train model in 
 [how to train](https://github.com/zisianw/FaceBoxes.PyTorch)
 
-# Model convert form Pytorch to Onnx to Ncnn
+### Model convert form Pytorch to Onnx to Ncnn
 
 repair some bug in onnx2ncnn
 
-1. Onnx2ncnn in ncnn don't support the operation which changes Split to Slice. I  modified the onnx2ncnn on the basis of ncnn in order to support Split to Slice   operator.
+1.Onnx2ncnn in ncnn don't support the operation which changes Split to Slice. Modifying the onnx2ncnn on the basis of ncnn in order to support Split to Slice   operator.
 
-2.Onnx2ncnn in ncnn would parse to the wrong parameter in reshape operator if reshape operator is 4 dims(eg:torch.reshape(b, c, h, w) to ncnn reshape). We modified the bug.
+ 2.Onnx2ncnn in ncnn would parse to the wrong parameter in reshape operator if reshape operator is 4 dims(eg:torch.reshape(b, c, h, w) to ncnn reshape). 
 
 # Compile
 
