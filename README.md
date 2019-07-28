@@ -18,6 +18,7 @@ repair some bug in onnx2ncnn
  2.onnx2ncnn in ncnn would parse to the wrong parameter in reshape operator if reshape operator is 4 dims(eg:torch.reshape(b, c, h, w) to ncnn reshape). 
  
  3.winograd3x3 conv style has bug, I don't use winograd3x3.
+ 
 
 # Compile
 
@@ -26,6 +27,8 @@ repair some bug in onnx2ncnn
 2. [how to build ncnn library](https://github.com/Tencent/ncnn/wiki/how-to-build)
 
 3. cd ./build/faceboxes/ && ./facebox, test.jpg saved in ./model/test.jpg
+
+ We provide the converted model in model folder!
 
 # faceboxes refers to the following projects:
 
